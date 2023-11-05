@@ -55,19 +55,19 @@ const Footer = () => {
               <i>
                 <FontAwesomeIcon icon={faLocationDot} />
               </i>
-              Jublee Hills, Hyderabad.
+              520 Michigan Ave, Chicago, IL 60605, Estados Unidos
             </p>
             <p>
               <i>
                 <FontAwesomeIcon icon={faPhone} />
               </i>
-              (+91) XXXXX84223
+                +13125881287
             </p>
             <p>
               <i>
                 <FontAwesomeIcon icon={faEnvelope} />
               </i>
-              contact@littlelemon.com
+              support@littlelemon.com
             </p>
             <div className="div"></div>
           </div>
