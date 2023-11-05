@@ -1,0 +1,46 @@
+.specials{
+    background-color: #edefee85;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    flex-wrap: wrap;
+    padding: 1rem 6rem 6rem;
+}
+
+.specials-cards{
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+    max-width: -webkit-fill-available;
+}
+
+.special-card{
+    background: #EDEFEE;
+    border-radius: 10px;
+    color: #495E57;
+    border: solid 1px #e1e1e1;
+    max-width: 32%;
+    cursor: pointer;
+}
+
+.special-card:not(:first-child){
+    margin-left: 1rem;
+}
+
+.card-description{
+    padding: 0 0.5rem;
+    font-size: .8rem;
+    margin-bottom: 1.5rem;
+}
+
+.specials img{
+    width: 319px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.specials a{
+   text-decoration: underline;
+   margin-bottom: 2rem;
+}

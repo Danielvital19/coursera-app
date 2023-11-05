@@ -1,0 +1,27 @@
+.about{
+    background-color: #f6f7f6;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 6rem 0;
+}
+
+.about h1{
+    margin-bottom: 0;
+}
+
+.about p{
+    font-size: .8rem;
+    max-width: 75%;
+    margin: 2rem 0;
+}
+
+.about img{
+    align-self: center;
+    width: 400px;
+}
+
+.about .img{
+    align-self: center;
+}
+

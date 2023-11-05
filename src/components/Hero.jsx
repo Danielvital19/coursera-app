@@ -1,5 +1,5 @@
 import './Hero.css';
-import image from '../images/chicago.jpg';
+import heroImage from '../images/chicago.jpg';
 
 const Hero = () => {
     return <div className='hero'>
@@ -10,7 +10,7 @@ const Hero = () => {
             <a href='/booking'> Reserve a table</a>
         </div>
         <div className='img'>
-            <img src={image} alt="Little Lemon Logo" />
+            <img src={heroImage} alt="Little Lemon Logo" />
         </div>
     </div>
 }

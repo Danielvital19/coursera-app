@@ -8,69 +8,61 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
-  const handleScroll = () => {
-    const ele = document.querySelector("#about");
-    if (ele) {
-      ele.scrollIntoView({ behavior: "smooth" });
-    }
-  };
   return (
     <footer>
         <div className="footer">
           <img src={logo} alt="Little Lemon Logo" />
-          <div>
-            <p>Navigate</p>
-            <ul>
-              <li>
-                <a href="/"> Home</a>
-              </li>
-              <li>
-                <a href="/">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="/">Menu</a>
-              </li>
-              <li>
-                <a href="/">Reservation</a>
-              </li>
-              <li>
-                <a href="/">Login</a>
-              </li>
-            </ul>
+          <div className="navigate-section">
+            <h4>Navigate</h4>
+            <div>
+              <a href="/"> Home</a>
+            </div>
+            <div>
+              <a href="/">About</a>
+            </div>
+            <div>
+              <a href="/">Menu</a>
+            </div>
+            <div>
+              <a href="/">Reservation</a>
+            </div>
+            <div>
+              <a href="/">Login</a>
+            </div>
           </div>
-          <div>
-            <p>Contact us</p>
-            <p>
+          <div className="navigate-section">
+            <h4>Contact us</h4>
+            <div>
               <i>
                 <FontAwesomeIcon icon={faPhone} />
               </i>
                 +13125881287
-            </p>
-            <p>
+            </div>
+            <div>
               <i>
                 <FontAwesomeIcon icon={faLocationDot} />
               </i>
               520 Michigan Ave, Chicago, IL 60605, Estados Unidos
-            </p>
-            <p>
+            </div>
+            <div>
               <i>
                 <FontAwesomeIcon icon={faEnvelope} />
               </i>
               support@littlelemon.com
-            </p>
+            </div>
           </div>
-          <div>
-            <p>Find us in:</p>
+          <div className="navigate-section">
+            <h4>Find us in:</h4>
             <div>
               <a
                 href="https://www.facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                facebook
+                Facebook
               </a>
+            </div>
+            <div>
               <a
                 href="https://www.twitter.com"
                 target="_blank"

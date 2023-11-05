@@ -1,9 +1,8 @@
 
-import Nav from './Nav';
 import Hero from './Hero';
 import Specials from './Specials';
 import Testimonials from './Testimonials';
-import Chicago from './Chicago';
+import About from './About';
 
 const Home = () => {
     return (
@@ -11,7 +10,7 @@ const Home = () => {
         <Hero/>
         <Specials/>
         <Testimonials/>
-        <Chicago/>
+        <About/>
     </>)
 }
 
