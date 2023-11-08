@@ -1,11 +1,10 @@
 
-import Nav from './Nav';
-import Footer from './Footer';
+import BookingForm from './BookingForm';
 
-const BookingPage = () => {
+const BookingPage = ({availableTimes, setDate, submitForm}) => {
     return (
     <>
-    booking
+        <BookingForm availableTimes={availableTimes} setDate={setDate} submitForm={submitForm}/>
     </>)
 }
 
