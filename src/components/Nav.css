@@ -11,6 +11,7 @@
     margin: auto;
     display: inline-flex;
     justify-content: space-evenly;
+    padding-left: 1rem;
 }
 
 .nav li {
@@ -23,4 +24,29 @@
     padding: 0 2rem;
     text-decoration: none;
     color: #495E57;
+}
+
+
+@media (max-width: 500px) {
+    .nav img{
+        padding-right: 1rem;
+    }
+
+    .nav ul {
+        padding-left: 0;
+    }
+
+    .nav a {
+        padding: 0 1rem;
+    }
+
+    .nav{
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 780px) {
+    .optional{
+        display: none !important;
+    }
 }

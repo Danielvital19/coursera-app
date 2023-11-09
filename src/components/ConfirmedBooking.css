@@ -1,0 +1,25 @@
+.confirmedBooking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #495E57;
+    padding: 2rem 0 5rem;
+    color: white;
+    min-height: 375px;
+    justify-content: center;
+}
+
+
+.confirmedBooking h1{
+    color: #F4CE14;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.confirmedBooking h3{
+    margin: 1rem;
+    color: #EDEFEE;
+    font-weight: 600;
+    text-align: center;
+}

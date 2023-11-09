@@ -2,4 +2,46 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #495E57;
+    padding: 2rem 0 5rem;
+    color: white;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.chakra-form-control{
+    width: 50%;
+    text-align: center;
+}
+
+.chakra-form-control label{
+    text-align: center;
+
+}
+
+.css-1kxonj9 {
+    margin: 2rem;
+    max-width: 300px;
+}
+
+.form h1{
+    color: #F4CE14;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    color: #edefee;
+    justify-content: center;
+}
+
+.button-container{
+    text-align: center;
 }

@@ -44,3 +44,24 @@
 .hero .img{
     align-self: center;
 }
+
+ @media (max-width: 725px) {
+    .hero-item{
+        max-width: 80%;
+    }
+
+
+    .hero .img {
+        align-self: center;
+        margin-bottom: 2rem;
+    }
+
+    .hero {
+        flex-flow: wrap-reverse;
+    }
+
+    .hero p {
+        max-width: unset;
+    }
+
+} 

@@ -25,3 +25,11 @@
     align-self: center;
 }
 
+@media (max-width: 722px) {
+    .about p{
+        max-width: unset;
+    }
+    .about img{
+        width: 280px;
+    }
+}

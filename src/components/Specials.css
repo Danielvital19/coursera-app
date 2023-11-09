@@ -20,7 +20,7 @@
     border-radius: 10px;
     color: #495E57;
     border: solid 1px #e1e1e1;
-    max-width: 32%;
+    /* max-width: 32%; */
     cursor: pointer;
 }
 
@@ -43,4 +43,16 @@
 .specials a{
    text-decoration: underline;
    margin-bottom: 2rem;
+}
+
+@media (max-width: 1050px) {
+    .specials{
+        padding: 1rem 3rem 6rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .specials{
+        padding: 1rem 2rem 6rem;
+    }
 }

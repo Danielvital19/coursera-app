@@ -6,21 +6,21 @@ const Nav = () => {
         <nav>
             <ul>
                 <li>
-                    <img src={logo} alt="Little Lemon Logo" />
+                    <img src={logo} alt="Little Lemon Logo"/>
                 </li>
                 <li>
                     <a href='/'>Home</a>
                 </li>
-                <li>
+                <li className='optional'>
                     <a href='/'>Menu</a>
                 </li>
                 <li>
                     <a href='/booking'>Reservation</a>
                 </li>
-                <li>
+                <li className='optional'>
                     <a href='/'>Order Online</a>
                 </li>
-                <li>
+                <li className='optional'>
                     <a href='/'>Login</a>
                 </li>
             </ul>

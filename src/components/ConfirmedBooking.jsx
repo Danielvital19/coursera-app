@@ -1,7 +1,10 @@
+import './ConfirmedBooking.css';
+
 
 const ConfirmedBooking = () => {
     return (<div className='confirmedBooking'>
-        Congrats, booking confirmed.
+        <h1>Congrats, booking confirmed!</h1>
+        <h3>You will receive an email with the confirmation</h3>
     </div>)
 }
 

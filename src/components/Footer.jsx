@@ -13,38 +13,20 @@ const Footer = () => {
         <div className="footer">
           <img src={logo} alt="Little Lemon Logo" />
           <div className="navigate-section">
-            <h4>Navigate</h4>
-            <div>
-              <a href="/"> Home</a>
-            </div>
-            <div>
-              <a href="/">About</a>
-            </div>
-            <div>
-              <a href="/">Menu</a>
-            </div>
-            <div>
-              <a href="/">Reservation</a>
-            </div>
-            <div>
-              <a href="/">Login</a>
-            </div>
-          </div>
-          <div className="navigate-section">
-            <h4>Contact us</h4>
-            <div>
+            <h4>Contact us: </h4>
+            <div className="navigate-section-item">
               <i>
                 <FontAwesomeIcon icon={faPhone} />
               </i>
                 +13125881287
             </div>
-            <div>
+            <div className="navigate-section-item">
               <i>
                 <FontAwesomeIcon icon={faLocationDot} />
               </i>
               520 Michigan Ave, Chicago, IL 60605, Estados Unidos
             </div>
-            <div>
+            <div className="navigate-section-item">
               <i>
                 <FontAwesomeIcon icon={faEnvelope} />
               </i>
@@ -53,7 +35,7 @@ const Footer = () => {
           </div>
           <div className="navigate-section">
             <h4>Find us in:</h4>
-            <div>
+            <div className="navigate-section-item">
               <a
                 href="https://www.facebook.com"
                 target="_blank"
@@ -62,7 +44,7 @@ const Footer = () => {
                 Facebook
               </a>
             </div>
-            <div>
+            <div className="navigate-section-item">
               <a
                 href="https://www.twitter.com"
                 target="_blank"
@@ -70,6 +52,24 @@ const Footer = () => {
               >
                 Twitter
               </a>
+            </div>
+          </div>
+          <div className="navigate-section">
+            <h4>Navigate</h4>
+            <div className="navigate-section-item">
+              <a href="/"> Home</a>
+            </div>
+            <div className="navigate-section-item">
+              <a href="/">About</a>
+            </div >
+            <div className="navigate-section-item">
+              <a href="/">Menu</a>
+            </div>
+            <div className="navigate-section-item">
+              <a href="/">Reservation</a>
+            </div>
+            <div className="navigate-section-item">
+              <a href="/">Login</a>
             </div>
           </div>
         </div>

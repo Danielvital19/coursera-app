@@ -42,3 +42,15 @@
     color: #495e57;
 }
 
+
+@media (max-width: 1050px) {
+    .testimonials{
+        padding: 1rem 3rem 6rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .testimonials{
+        padding: 1rem 2rem 6rem;
+    }
+}
