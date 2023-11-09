@@ -1,6 +1,6 @@
-import React, {useEffect, useReducer} from "react";
+import React, { useReducer} from "react";
 import { useNavigate } from 'react-router-dom';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from './Home';
 import BookingPage from './BookingPage';
 import { fetchData, submitAPI } from '../helpers/api'

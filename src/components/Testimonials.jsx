@@ -35,8 +35,8 @@ const Testimonials = () => {
     return <div className='testimonials'>
         <h2>Testimonials</h2>
         <div className='testimonials-cards'>
-        { testimonials.map( (item) => (
-                <div className='testimonials-card'>
+        { testimonials.map( (item, index) => (
+                <div className='testimonials-card' key={index}>
                     <span className='testimonials-rating'>
                         <FontAwesomeIcon icon={faStar} color='gold'/>
                         <FontAwesomeIcon icon={faStar} color='gold'/>
@@ -45,7 +45,7 @@ const Testimonials = () => {
                         <FontAwesomeIcon icon={faStar} color='gold'/>
                     </span>
                     <div className='user-description'>
-                        <img src={item.image} ></img>
+                        <img src={item.image} alt=''></img>
                         <h4>{item.user}</h4>
                     </div>
                     <p>{item.review}</p>

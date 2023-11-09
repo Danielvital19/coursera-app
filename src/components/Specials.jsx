@@ -34,14 +34,14 @@ const Specials = () => {
     return <div className='specials'> 
         <h2>Specials</h2>
         <div className='specials-cards'>
-        { specialties.map( (item) => (
-                <div className='special-card'>
-                    <img src={item.image} ></img>
+        { specialties.map( (item, index) => (
+                <div className='special-card' key={index}>
+                    <img src={item.image} alt=""></img>
                     <div className='card-description'>
                         <h4>{item.name}</h4>
                         <p>{item.description}</p>
 
-                        <a>Order online here for {item.price}</a>
+                        <a href='/'>Order online here for {item.price}</a>
                     </div>
                 </div>
             ))}
